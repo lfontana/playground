@@ -1,7 +1,11 @@
 .navbar {
     background-color: blue;
+    height: 100px;
+    width: 100%;
 }
 
 .home {
     background-color: green;
+    height: 500px;
+    width: 100%;
 }
