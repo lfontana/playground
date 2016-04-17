@@ -1,11 +1,40 @@
 .navbar {
-    background-color: blue;
-    height: 100px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 3px;
+    height: 50px;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-.home {
-    background-color: green;
-    height: 500px;
+.main {
+    border-style: double;
+    border-radius: 3px;
+    border-color: yellow;
+    height: 800px;
     width: 100%;
+    background-image: url(http://orig11.deviantart.net/e90a/f/2011/239/4/3/orange_vector_stripes_by_spooky_dream-d47yxwd.png);
+    background-position: center;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  width: 229px;
+}
+
+.button:hover {
+  background-color: yellow; /*Makes hover button color*/
+  color: black; /*Color of text*/
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); /*Controls Shadow of Hover*/
+
 }
