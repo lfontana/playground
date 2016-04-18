@@ -19,7 +19,7 @@
 }
 
 .favorites {
-    
+
 }
 
 .contact {
@@ -27,7 +27,26 @@
 }
 
 .about {
+    column-count: 3;
+    column-gap: 50px;
+    padding: 50px
+}
 
+.shrugging_guy1 {
+  line-height: 1.6;
+  font-family: Helvetica;
+  text-align: justify;
+  margin: 0;
+  font-size: 14px;
+}
+
+.shrugging_guy2 {
+  float: right;
+  width: 250px;
+  shape-outside: circle();
+  shape-margin:20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .button {
@@ -49,4 +68,12 @@
   color: black; /*Color of text*/
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); /*Controls Shadow of Hover*/
 
+}
+
+.contact_table {
+    border-collapse: collapse;
+
+}
+tr:hover {
+    background-color: #f5f5f5
 }
