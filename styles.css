@@ -26,13 +26,15 @@
 
 }
 
-.about {
-    column-count: 3;
+.about1 {
+    background-color: yellow;
+    column-count: 2;
     column-gap: 50px;
-    padding: 50px
+    padding: 50px;
 }
 
 .shrugging_guy1 {
+  column-count: 2;
   line-height: 1.6;
   font-family: Helvetica;
   text-align: justify;
@@ -41,6 +43,7 @@
 }
 
 .shrugging_guy2 {
+  column-count: 2;
   float: right;
   width: 250px;
   shape-outside: circle();
@@ -49,8 +52,8 @@
   margin-bottom: 20px;
 }
 
-.button {
-  background-color: #4CAF50; /* Green */
+/*.button {
+  background-color: #4CAF50; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -62,6 +65,7 @@
   float: left;
   width: 229px;
 }
+*/
 
 .button:hover {
   background-color: yellow; /*Makes hover button color*/
@@ -75,5 +79,5 @@
 
 }
 tr:hover {
-    background-color: #f5f5f5
+    background-color: #f5f5f5;
 }
